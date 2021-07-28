@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body {
+    background: gray;
+}
+.userCard {
+    width: 300px;
+    height: 470px;
+    min-width: 100px;
+    max-width: 500px;
+    background-color: white;
+    margin: center;
+    margin-top: 50px;
+    color: black;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.userImg {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 110px;
+}
+.userImg > img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.cardImg {
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.cardImg > img {
+    width:  inherit;
+    height: inherit;
+    object-fit: inherit;
+}
+.userInfo {
+    position: relative;
+    width: 260px;
+    bottom: 100px;
+    font-family: 'Encode Sans', sans-serif;
+    color: rgb(99, 99, 99);
+    font-size: 20px;
+}
+.userInfo > h3{
+    font-style: bold;
+}
+.userInfo > p {
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    line-height: 1.3em;
+}
+.userWebLinks > img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+}
+.tw, .fb{
+    margin-right: 5px
+}
